@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Carrinho EJB</title>
+</head>
+<body>
+  <h1>Carrinho com EJB</h1>
+  <p>Estoque <code>@Singleton</code> + carrinho <code>@Stateful</code> por sessão.</p>
+  <ul>
+    <li><a href="carrinho?acao=listar">?acao=listar</a></li>
+    <li><a href="carrinho?acao=adicionar&produto=Mouse&qtd=1">?acao=adicionar&amp;produto=Mouse&amp;qtd=1</a></li>
+    <li><a href="carrinho?acao=finalizar">?acao=finalizar</a></li>
+  </ul>
+  <p>Os comandos curl completos estão no <code>README.md</code>.</p>
+</body>
+</html>
